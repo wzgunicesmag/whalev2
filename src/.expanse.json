@@ -1,0 +1,272 @@
+{
+  "entrySpaceId": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+  "objects": {
+    "198341ee-4d49-42d8-b424-30a8f8cec681": {
+      "components": {},
+      "geometry": null,
+      "id": "198341ee-4d49-42d8-b424-30a8f8cec681",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "32bf45c0-2e32-4dd5-88ec-5ba697c6508f": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "32bf45c0-2e32-4dd5-88ec-5ba697c6508f",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "3ecb4671-b810-4446-8189-f7dc9d184f72": {
+      "components": {
+        "e805ba53-2c63-4779-90d6-09630a90eb1a": {
+          "id": "e805ba53-2c63-4779-90d6-09630a90eb1a",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "3ecb4671-b810-4446-8189-f7dc9d184f72",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Aguacate_gif.gif"
+        },
+        "inreMaterial": "Aguacate_gif"
+      },
+      "name": "Cubo",
+      "order": 0.1576875977723471,
+      "parentId": "489126e6-eb51-4b04-b844-71b6aa5f6cff",
+      "position": [
+        0.89,
+        -0.286,
+        0.5
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.529,
+        0.529,
+        0.529
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "489126e6-eb51-4b04-b844-71b6aa5f6cff": {
+      "components": {},
+      "geometry": null,
+      "id": "489126e6-eb51-4b04-b844-71b6aa5f6cff",
+      "imageTarget": {
+        "name": "386305641_724387343042558_3038697715686362368_n"
+      },
+      "material": null,
+      "name": "Marcador · 386305641_724387343042558_3038697715686362368_n",
+      "order": 4.5,
+      "parentId": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "61b01c4d-bf7a-4acc-8811-14bff24ee0ec": {
+      "components": {
+        "d3ebeb6d-edd1-46f1-ad27-d6910c897b39": {
+          "id": "d3ebeb6d-edd1-46f1-ad27-d6910c897b39",
+          "name": "inre-material-modelo",
+          "parameters": {}
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/biowhale-animated.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "id": "61b01c4d-bf7a-4acc-8811-14bff24ee0ec",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "repeatY": -1,
+        "inreMaterial": "Whale"
+      },
+      "name": "biowhale-animated",
+      "order": 1.157687597772347,
+      "parentId": "489126e6-eb51-4b04-b844-71b6aa5f6cff",
+      "position": [
+        -0.704,
+        0.47199999999999975,
+        1.0960000000000003
+      ],
+      "rotation": [
+        0.7071067811865476,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.366,
+        0.366,
+        0.366
+      ],
+      "shadow": null
+    },
+    "a654dfbe-b007-4250-8ef6-072a56608b6a": {
+      "components": {},
+      "geometry": null,
+      "id": "a654dfbe-b007-4250-8ef6-072a56608b6a",
+      "light": {
+        "type": "point",
+        "intensity": 1.85,
+        "color": "#ff1414"
+      },
+      "material": null,
+      "name": "Luz puntual",
+      "order": 2.1576875977723473,
+      "parentId": "489126e6-eb51-4b04-b844-71b6aa5f6cff",
+      "position": [
+        0.066,
+        -0.874,
+        0.98
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "b421c490-640f-4724-aa1f-c293c5e6a66e": {
+      "components": {},
+      "geometry": null,
+      "id": "b421c490-640f-4724-aa1f-c293c5e6a66e",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "15236a5d-9a90-4180-ad28-7f7b89e65747": {
+      "activeCamera": "32bf45c0-2e32-4dd5-88ec-5ba697c6508f",
+      "id": "15236a5d-9a90-4180-ad28-7f7b89e65747",
+      "name": "Espacio principal"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Esta experiencia usa el 8th Wall XR Engine, creado por Niantic Spatial, Inc.
+© 2026 Niantic Spatial, Inc. Todos los derechos reservados.
+El motor se distribuye bajo la XR Engine License Agreement y se ofrece
+"TAL CUAL", sin garantías de ningún tipo.
+Motor de juego y herramientas: licencia MIT, © 2026 Niantic Spatial, Inc.
+
+---
+
+Este proyecto se creó con INRE (https://github.com/wilzamguerrero/inre), un editor
+web de realidad aumentada construido sobre el 8th Wall open source.
+
+Los archivos de configuración de la carpeta config/ derivan de los proyectos de
+ejemplo de 8th Wall y se distribuyen bajo licencia MIT. Ver config/LICENSE.
